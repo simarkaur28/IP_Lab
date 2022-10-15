@@ -1,0 +1,37 @@
+/* Using CSS3 selectors, Pseudo classes, Pseudo elements in GitHub Workshop Details page */
+/* CSS Element selectors */
+body{
+    background-color: #E9EBC8;
+}
+/* CSS grouping Selector */
+h1,h2,h3{
+background-color:rgb(214, 183, 243)
+}
+p{
+    font-size: medium;
+}
+/* anchor pseudo-classes */
+/* Mouse over link */
+a:hover {
+    color: rgb(2, 41, 167);
+  }
+/*selected link*/
+a:active {
+    color: blue;
+}
+/* Pseudo-classes can be combined with HTML classes */
+a.highlight:hover {
+    font-size: 19px;
+  } 
+
+/* pseudo elements */
+  ::marker { 
+    color: rgb(2, 41, 167);
+    font-size: 17px;
+}
+/* Selects the portion of an element that is selected by a user */
+::selection {
+    color: rgb(2, 41, 167);
+    background-color: rgb(214, 183, 243);
+}
+
