@@ -72,11 +72,27 @@
       <br><br>
       <input type="reset">
       <input type="submit">
-    </form><br>
+      <!-- Java Script variables , conditional, operators -->
+      <button id="age">Check Eligibility Age</button>
+      <script>
+        document.getElementById("age").addEventListener("click", (e) => {
+            var age = prompt("Enter your age:", age);  //variable
+            if (age < 15)                                //conditional statement
+            {
+                reqage = 15 - age   //operator
+                alert("You are not eligible, you can join in after " + reqage + " years")
+            }
+            else alert("You are eligible for the workshop")
+ 
+        })        
+      </script>
+    </form>
+    <br>
     <hr>
     <a href="https://github.com/simarkaur28/task1" class="highlight">Click here for a task assigned after the workshop</a>.
     <hr>
     <h3>Reference YouTube Video</h3>
     <iframe width="350" height="250" src="https://www.youtube.com/embed/nhNq2kIvi9s" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</body>
+
+  </body>
 </html>
